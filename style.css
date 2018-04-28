@@ -4,6 +4,7 @@ body {
 
 header, main, footer {
   min-width: 855px;
+  overflow: auto;
 }
 
 header .container, main .container, footer .container {
@@ -17,4 +18,14 @@ header {
 
 main {
   background: white;
+}
+
+.column-left {
+  float: left;
+  width: 570px;
+}
+
+.column-right {
+  float: right;
+  width: 285px;
 }
