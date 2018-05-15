@@ -37,6 +37,19 @@ h1 {
   color: #b33;
 }
 
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 5px;
+  color: #999;
+  background: #ddd;
+  padding: 5px;
+  margin: 20px 0 10px 0;
+}
+
+h3:first-child {
+  margin-top: 0;
+}
+
 /* FOOTER HEADINGS */
 h5 {
     font-family: 'Ubuntu', sans-serif;
@@ -96,6 +109,15 @@ main .content button {
 
 main .content input {
     font-size: 1.5em;
+}
+
+main .content p {
+  color: red;
+  margin-top: 30px;
+}
+
+main .content p:first-child {
+  margin-top: 10px;
 }
 
 footer {
