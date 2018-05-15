@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Amazeriffic</title>
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
   </head>
@@ -12,7 +12,7 @@
     <header>
       <div class="container">
         <div class="column-left">
-          <h1>Amazeriffic</h1>
+          <h1>Amazeriffic!</h1>
         </div>
         <div class="column-right">
           <nav>
@@ -26,19 +26,12 @@
 
     <main>
       <div class="container">
-        <div class="column-left">
-          <h2>Amazeriffic will change your life!</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-             eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <h3>Here's why you need Amazeriffic</h3>
-          <ul>
-            <li>It fits your lifestyle</li>
-            <li>It's awesome</li>
-            <li>It rocks your world</li>
-          </ul>
+        <div class="tabs">
+          <a href=""><span class="active">Newest</span></a>
+          <a href=""><span>Oldest</span></a>
+          <a href=""><span>Add</span></a>
         </div>
-        <div class="column-right">
-          <img src="lightbulb.png" alt="lightbulb image">
+        <div class="content">
         </div>
       </div>
     </main>
@@ -57,16 +50,23 @@
           <div class="sitemap">
             <h5>Sitemap</h5>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Support</a></li>
-              <li><a href="faq.html">FAQ</a></li>
-              <li><a href="#">Careers</a></li>
+              <div class="left">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy</a></li>
+              </div>
+              <div class="right">
+                <li><a href="#">Support</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="#">Careers</a></li>
+              </div>
             </ul>
           </div>
         </div>
       </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="javascripts/app.js"></script>
   </body>
 </html>
